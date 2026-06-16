@@ -1,0 +1,19 @@
+body{font-family: Arial, sans-serif;
+font-size: 18px;}
+/* this rule changes the font for the entire webpage and sets the font size to 18px. */
+header,
+footer{background-color: lightgray;}
+/* this rule gives the header and footer the same background colour, using the grouping selectors method give as a short and clean code. */
+.site-title{color: green}
+/* here we change the colour of the main heading.*/
+#my-image {box-shadow: 0 0 1px 2px black;}
+/* with this rule i select my image using ID and adds a black box shadow around it.*/
+ul {list-style-type: square;}
+/* with this rule i changed the hobby list bullets to squares.*/
+nav a { text-decoration: none;
+background-color: lightgray;
+border: 1px solid black;
+padding: 5px;}
+/*this rule styles the navigation links by removing the underline,adding a border and background colour.*/
+nav a:hover {background-color: lightblue;}
+/*this rule changes the background colour when the user hovers over a link.*/
